@@ -23,7 +23,6 @@ public class ObjectRepository {
         return personalObjects.stream()
                 .filter(o -> o.getName().equals(name))
                 .findFirst()
-                .get()
                 .toString();
     }
 }

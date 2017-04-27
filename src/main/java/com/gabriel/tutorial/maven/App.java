@@ -4,6 +4,6 @@ package com.gabriel.tutorial.maven;
  */
 public class App {
     public static void main(String[] args) {
-      Util.printMessage("Hello World!");
+      Util.printMessage("Hi World!");
     }
 }

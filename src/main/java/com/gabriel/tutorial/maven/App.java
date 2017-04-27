@@ -18,7 +18,7 @@ public class App {
     ObjectRepository repository = new ObjectRepository();
     MyPersonalObject object = MyObjectGenerator.generateObject("Important object", "Don't lose it!");
     repository.add(object);
-    System.out.println(repository.get("Important object"));
+    System.out.println(repository.get("Very important object"));
 
     BoxFactory boxFactory = new BoxFactory();
     Dimensions dimensions = new Dimensions(10, 5, 20);
